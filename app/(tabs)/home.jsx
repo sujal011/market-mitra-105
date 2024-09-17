@@ -6,6 +6,7 @@ import Header from "../../components/Home/Header";
 import ProductListByCategory from "../../components/Home/ProductListByCategory";
 import Colors from "../../constants/Colors";
 import { createUser } from "../../lib/appwrite-config";
+import Slider from "../../components/Home/Slider";
 
 export default function Home() {
   // useEffect(()=>{
@@ -30,26 +31,18 @@ export default function Home() {
         <Header />
 
         {/* maybe- slider */}
+        <Slider />
 
         {/* category */}
-        <ScrollView nestedScrollEnabled={true}>
+       
           <ProductListByCategory />
-        </ScrollView>
+      
 
         {/* products */}
 
         {/*Add New Pet Conditional Rendering */}
       </View>
-      <View
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          position: "absolute",
-          bottom: "5%",
-          width: "100%",
-        }}
-      ></View>
+   
     </SafeAreaView>
   );
 }

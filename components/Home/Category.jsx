@@ -43,7 +43,7 @@ export default function Category({ category }) {
             >
                 Category
             </Text>
-            <ScrollView horizontal={true}>
+           
                 <FlatList
                     data={categories}
                     horizontal={true}
@@ -84,7 +84,7 @@ export default function Category({ category }) {
                         </TouchableOpacity>
                     )}
                 />
-            </ScrollView>
+            
         </View>
     );
 }

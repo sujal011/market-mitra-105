@@ -32,19 +32,29 @@ export default function ProductListByCategory() {
     };
 
     return (
-        <View>
+        <View style={{
+            height:'100%'
+        }}>
+            <View>
             <Category category={(value) => getProducts(value)} />
+            </View>
+                <View style={{
+                    marginBottom:'100%'
+                }}>
 
-          
                 <FlatList
                     numColumns={2}
                     data={products}
                     refreshing={loader}
+                    scrollEnabled={true}
+                    showsVerticalScrollIndicator={false}
                     onRefresh={() => getProducts("vegetables")}
                     renderItem={({ item, index }) => (
                         <ProductListItem item={item} />
                     )}
-                />
+                    />
+           
+                </View>
             
         </View>
     );
