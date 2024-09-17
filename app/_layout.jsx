@@ -45,7 +45,7 @@ export default function RootLayout() {
     }
   }, [user, initializing]);
 
-  if (initializing) {
+  if ( !loaded) return (
     <View
       style={{
         flex: 1,
@@ -54,8 +54,8 @@ export default function RootLayout() {
       }}
     >
       <ActivityIndicator size={"large"} color={Colors.PRIMARY} />
-    </View>;
-  }
+    </View>
+  )
 
   return (
     <Stack>
