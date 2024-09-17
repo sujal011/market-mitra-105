@@ -40,6 +40,7 @@ const UserProducts = () => {
 
   const OnDeletePost = async (id) => {
     try {
+      setLoader(true)
       await databases.deleteDocument(
         config.databaseId,
         config.productsCollectionId,
@@ -49,6 +50,8 @@ const UserProducts = () => {
       await getUserProducts();
     } catch (error) {
       Alert.alert("Error Deleting your Product.")
+    }finally{
+      setLoader(false)
     }
   };
 
@@ -62,17 +65,24 @@ const UserProducts = () => {
     <View
       style={{
         padding: 20,
+        height:'100%'
       }}
     >
       <Text
         style={{
           fontFamily: "outfit-med",
           fontSize: 30,
+          height:"10%"
         }}
       >
         My Products
       </Text>
       {loader && <ActivityIndicator size={"large"} color={Colors.PRIMARY} />}
+      <View style={{
+        height:'90%',
+        marginBottom:'90%'
+      }}>
+
       <FlatList
         numColumns={2}
         data={userProducts}
@@ -86,7 +96,7 @@ const UserProducts = () => {
           onPress={async()=>{
             await OnDeletePost(item.$id);
           }}
-                style={styles.myButton}>
+          style={styles.myButton}>
                   <Text style={{
                     fontFamily:"outfit-med",
                     color:'#B8001F'
@@ -94,7 +104,8 @@ const UserProducts = () => {
                 </TouchableOpacity>
           </View>
         )}
-      />
+        />
+        </View>
 
       {userProducts?.length == 0 && <Text>No Product Found</Text>}
     </View>
@@ -127,5 +138,6 @@ const styles = StyleSheet.create({
       justifyContent:'center',
       flexDirection:'column',
       alignItems:'center',
+      margin:'auto'
     }
 });
