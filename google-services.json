@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "159697299149",
+    "project_id": "market-mitra-app",
+    "storage_bucket": "market-mitra-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159697299149:android:b0267d6bcd714919caeb84",
+        "android_client_info": {
+          "package_name": "com.marketmitra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159697299149-63n23l2gils6ut3gk9kfmv38frta4oll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marketmitra",
+            "certificate_hash": "cbcda2bff3fd20589cc7fba7dba9ef0baaecb63d"
+          }
+        },
+        {
+          "client_id": "159697299149-98r5stfptt4p6bg3cek69nd2cfr28og8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marketmitra",
+            "certificate_hash": "2e644ac678bf2266736bc0f422b247948f788238"
+          }
+        },
+        {
+          "client_id": "159697299149-nioiku99k37v8nv89jqto26pdm6t0itp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marketmitra",
+            "certificate_hash": "4fc7cc3c767caf601705357a2f0af03d2a0b46b0"
+          }
+        },
+        {
+          "client_id": "159697299149-a46o72jf103lp4mtu20suu2c5en3cc73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFxDocdd6AND3ncejqp2qE63OZOG5Nlf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159697299149-a46o72jf103lp4mtu20suu2c5en3cc73.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "159697299149-k7osethqbblcsofe7ul123u5c479euch.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.marketmitra"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

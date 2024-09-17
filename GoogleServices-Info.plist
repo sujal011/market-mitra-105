@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>159697299149-k7osethqbblcsofe7ul123u5c479euch.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.159697299149-k7osethqbblcsofe7ul123u5c479euch</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>159697299149-63n23l2gils6ut3gk9kfmv38frta4oll.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string></string>
+	<key>GCM_SENDER_ID</key>
+	<string>159697299149</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.marketmitra</string>
+	<key>PROJECT_ID</key>
+	<string>market-mitra-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>market-mitra-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:159697299149:ios:a8a7ce1beb78cf6acaeb84</string>
+</dict>
+</plist>

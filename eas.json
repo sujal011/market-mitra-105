@@ -1,0 +1,40 @@
+{
+  "cli": {
+    "version": ">= 11.0.2"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_PROJECT_ID": "marketmitra",
+        "EXPO_PUBLIC_PLATFORM": "com.marketmitra",
+        "EXPO_PUBLIC_ENDPOINT": "https://cloud.appwrite.io/v1",
+        "EXPO_PUBLIC_DATABASE_ID": "marketmitra_db",
+        "EXPO_PUBLIC_USER_COLLECTION_ID": "66c9bfe6002cb50cd0a9",
+        "EXPO_PUBLIC_PRODUCTS_COLLECTION_ID": "66c9c0070003753cd8d5",
+        "EXPO_PUBLIC_CATEGORIES_COLLECTION_ID": "66cb7fdf002a37de46cb"
+      }
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_PROJECT_ID": "marketmitra",
+        "EXPO_PUBLIC_PLATFORM": "com.marketmitra",
+        "EXPO_PUBLIC_ENDPOINT": "https://cloud.appwrite.io/v1",
+        "EXPO_PUBLIC_DATABASE_ID": "marketmitra_db",
+        "EXPO_PUBLIC_USER_COLLECTION_ID": "66c9bfe6002cb50cd0a9",
+        "EXPO_PUBLIC_PRODUCTS_COLLECTION_ID": "66c9c0070003753cd8d5",
+        "EXPO_PUBLIC_CATEGORIES_COLLECTION_ID": "66cb7fdf002a37de46cb"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
